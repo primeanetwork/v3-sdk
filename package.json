@@ -2,7 +2,9 @@
   "name": "@uniswap/v3-sdk",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "primea-alpha"
   },
   "version": "3.11.0",
   "description": "Primea fork — independent fork of upstream Uniswap repo",

@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.sol linguist-language=Solidity
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+pnpm-lock.yaml text eol=lf
+dist/** linguist-generated
+build/** linguist-generated
+generated/** linguist-generated
+*/dist/** linguist-generated
+*/build/** linguist-generated
+*/generated/** linguist-generated
