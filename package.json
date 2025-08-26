@@ -5,13 +5,16 @@
     "access": "public"
   },
   "version": "3.11.0",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "Primea fork — independent fork of upstream Uniswap repo",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-v3-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/primeanetwork/v3-sdk.git"
+  },
   "keywords": [
     "uniswap",
     "ethereum"
@@ -51,5 +54,9 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/primeanetwork/v3-sdk/issues"
+  },
+  "homepage": "https://github.com/primeanetwork/v3-sdk#readme"
 }
